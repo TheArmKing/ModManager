@@ -140,7 +140,7 @@ while (( !all  )); do
                 make_list NV
                 exd=0
                 while (( !exd )); do
-                  read -e -p "Bundle ID/iTunes ID:[type 'quit' to go back] " id
+                  read -e -p "Bundle ID[type 'quit' to go back] " id
                   if [ "$id" == "quit" ]; then
                     exd=1
                   fi
